@@ -24,7 +24,7 @@ const client = createClient({
     })
     return {
         paths,
-        fallback:false
+        fallback:true
     };
   }
 
