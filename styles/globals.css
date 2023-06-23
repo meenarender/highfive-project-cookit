@@ -195,7 +195,16 @@ h1, h2, h3, h4, h5, h6{
   height: 2.5rem;
   background: #ccc;
 }
-
+.nopage{
+  padding: 60px;
+  background-color:#ccc;
+  color:'#fff';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
 
 .banner-inner {
   max-width: 100%;
