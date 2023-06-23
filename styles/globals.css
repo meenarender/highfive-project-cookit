@@ -185,6 +185,14 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+.structure .line{
+  height: 1rem;
+  background: #ccc;
+}
+.h-blank{
+  height: 2.5rem;
+  background: #ccc;
+}
 
 
 .banner-inner {
