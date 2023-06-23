@@ -1,6 +1,5 @@
 import { createClient } from "contentful";
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
-import PageStructure from '../../component/PageStructure'
 import Head from "next/head";
 import Image from 'next/image';
 import Link from 'next/link';
@@ -24,7 +23,7 @@ const client = createClient({
     })
     return {
         paths,
-        fallback:true
+        fallback:false
     };
   }
 
@@ -52,8 +51,6 @@ const RecipeDetails = ({recipe}) => {
     let steps = cookingSteps.split("\n").filter(el=>el!="");
     //steps = steps.filter(el=>el!="")
     //console.log(recipe)
-    //if(!recipe) return <div><PageStructure /></div>;
-
     return (
     <>
         <Head>
