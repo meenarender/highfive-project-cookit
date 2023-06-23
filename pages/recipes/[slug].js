@@ -36,7 +36,8 @@ const client = createClient({
         'fields.slug':params.slug
     })
     return{
-        props:{recipe:items[0]}
+        props:{recipe:items[0]},
+        revalidate:1
     }
   
   }
