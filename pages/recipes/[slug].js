@@ -52,7 +52,7 @@ const RecipeDetails = ({recipe}) => {
     let steps = cookingSteps.split("\n").filter(el=>el!="");
     //steps = steps.filter(el=>el!="")
     //console.log(recipe)
-    if(!recipe) return <div><PageStructure /></div>;
+    //if(!recipe) return <div><PageStructure /></div>;
 
     return (
     <>
