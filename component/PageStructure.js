@@ -3,11 +3,11 @@ const PageStructure = () => {
     <>
     <div className="page structure">
             
-            <div className='banner-inner' style={{height:'600px', overflow:'hidden'}}>
+            <div className='banner-inner' style={{height:'400px', overflow:'hidden'}}>
                                                    
             </div>
 
-            <div className="p-2 mt-3 line">
+            <div className="mb-3 mt-3 line">
 
             </div>
             <div className='banner-content-1 pb-4'>
@@ -15,7 +15,7 @@ const PageStructure = () => {
                     <h1 className="h-blank"></h1>
                     <div className="row">
                         <div className="col-md-8"><div className="p-4"><p className="line"></p><p className="line"></p><p className="line"></p></div></div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 mb-3 mt-3">
                             <div className="card">
                                 <div className="card-body">
                                     <h5 class="card-title">Ingredients</h5>
