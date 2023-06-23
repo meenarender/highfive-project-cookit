@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link';
 
+import image from '../public/cook-it-v2x300.png'
+
 const Header = () =>{
     return(<header>
         <div className='top-header'>
@@ -12,7 +14,7 @@ const Header = () =>{
         <Link href="/">
             <Image
                 className=""
-                src="/../public/cook-it-v2x300.png"
+                src={image}
                 alt="CookIt"
                 width={300}
                 height={99}
